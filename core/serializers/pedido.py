@@ -1,10 +1,12 @@
 from rest_framework import serializers
+
 from core.models import Pedido
+
 
 class PedidoSerializer(serializers.ModelSerializer):
     class Meta:
         model = Pedido
-        fields = ['id', 'valor', 'data_criacao']
+        fields = ["id", "valor", "data_criacao"]
 
 
 class TotalSerializer(serializers.Serializer):
