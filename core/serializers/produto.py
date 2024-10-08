@@ -21,6 +21,7 @@ class ProdutoSerializer(ModelSerializer):
 
 class ProdutoDetailSerializer(ModelSerializer):
     capa = ImageSerializer(required=False)
+
     class Meta:
         model = Produto
         fields = "__all__"

@@ -11,4 +11,6 @@ class Pedido(models.Model):
     produto = models.ManyToManyField(Produto, blank=True)
 
     def __str__(self):
-        return f"{self.id} - " + str(", ".join(str(produto.nome) + ": R$" + str(produto.valor) for produto in self.produto.all()))
+        return f"{self.id} - " + str(
+            ", ".join(str(produto.nome) + ": R$" + str(produto.valor) for produto in self.produto.all())
+        )
