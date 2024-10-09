@@ -26,3 +26,8 @@ class ImageSerializer(serializers.ModelSerializer):
 
     def create(self, validated_data):
         raise NotImplementedError("Use ImageUploadSerializer to create images.")
+    
+class ProductImageSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Image
+        fields = ['url']

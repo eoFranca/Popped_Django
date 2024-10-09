@@ -19,6 +19,6 @@ class Produto(models.Model):
         blank=True,
         default=None,
     )
-
+    # capa = models.ImageField(upload_to='uploads/', null=True, blank=True)
     def __str__(self):
-        return f"{self.nome} - {self.descricao} "
+        return f"{self.nome} - {self.descricao}"

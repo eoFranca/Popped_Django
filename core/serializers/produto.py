@@ -2,21 +2,24 @@ from rest_framework.serializers import ModelSerializer, SlugRelatedField
 
 from core.models import Produto
 from uploader.models import Image
-from uploader.serializers import ImageSerializer
+from uploader.serializers import ProductImageSerializer, ImageSerializer
 
 
 class ProdutoSerializer(ModelSerializer):
+    capa_attachment_key = SlugRelatedField(
+        source="capa",
+        queryset=Image.objects.all(),
+        slug_field="attachment_key",
+        required=False,
+        write_only=True,
+    )
+    capa = ProductImageSerializer(
+        required=False,
+        read_only=True
+    )
     class Meta:
-        capa_attachment_key = SlugRelatedField(
-            source="capa",
-            queryset=Image.objects.all(),
-            slug_field="attachment_key",
-            required=False,
-            write_only=True,
-        )
         model = Produto
         fields = "__all__"
-        capa = ImageSerializer(required=False, read_only=True)
 
 
 class ProdutoDetailSerializer(ModelSerializer):
