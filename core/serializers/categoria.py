@@ -14,6 +14,7 @@ class CategoriaSerializer(ModelSerializer):
         write_only=True,
     )
     capa = ImageSerializer(required=False, read_only=True)
+
     class Meta:
         model = Categoria
         fields = "__all__"

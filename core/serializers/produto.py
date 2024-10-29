@@ -2,7 +2,7 @@ from rest_framework.serializers import ModelSerializer, SlugRelatedField
 
 from core.models import Produto
 from uploader.models import Image
-from uploader.serializers import ProductImageSerializer, ImageSerializer
+from uploader.serializers import ImageSerializer, ProductImageSerializer
 
 
 class ProdutoSerializer(ModelSerializer):
@@ -13,10 +13,8 @@ class ProdutoSerializer(ModelSerializer):
         required=False,
         write_only=True,
     )
-    capa = ProductImageSerializer(
-        required=False,
-        read_only=True
-    )
+    capa = ProductImageSerializer(required=False, read_only=True)
+
     class Meta:
         model = Produto
         fields = "__all__"
