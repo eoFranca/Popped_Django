@@ -9,9 +9,12 @@ from core.models import Pedido
 from core.serializers import PedidoSerializer, TotalSerializer
 
 
-class PedidoViewSet(viewsets.ViewSet):
+class PedidoViewSet(ModelViewSet):
+    queryset = Pedido.objects.all().order_by("id")
+    serializer_class = PedidoSerializer
+
     @action(detail=False, methods=["get"], url_path="total")
     def total(self, request, *args, **kwargs):
-        total = Pedido.objects.aggregate(total=Sum("valor"))["total"] or 0
+        total = Pedido.objects.aggregate(total=Sum("produto__valor"))["total"] or 0
         serializer = TotalSerializer({"total": total})
         return Response(serializer.data)
