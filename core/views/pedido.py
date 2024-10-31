@@ -19,6 +19,10 @@ class PedidoViewSet(ModelViewSet):
             return PedidoCreateSerializer
 
 
+class PedidoViewSet(ModelViewSet):
+    queryset = Pedido.objects.all().order_by("id")
+    serializer_class = PedidoSerializer
+
     @action(detail=False, methods=["get"], url_path="total")
     def total(self, request, *args, **kwargs):
         total = Pedido.objects.aggregate(total=Sum("produto__valor"))["total"] or 0
