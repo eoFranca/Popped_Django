@@ -26,3 +26,8 @@ class ProdutoDetailSerializer(ModelSerializer):
     class Meta:
         model = Produto
         fields = "__all__"
+
+class ProdutoPedidoSerializer(ModelSerializer):
+    class Meta:
+        model = Produto
+        fields = ["id", "nome", "valor"]
