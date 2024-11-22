@@ -6,7 +6,7 @@ from rest_framework.response import Response
 from rest_framework.viewsets import ModelViewSet
 
 from core.models import Pedido
-from core.serializers import PedidoSerializer, TotalSerializer, PedidoCreateSerializer
+from core.serializers import PedidoCreateSerializer, PedidoSerializer, TotalSerializer
 
 
 class PedidoViewSet(ModelViewSet):
