@@ -14,6 +14,7 @@ from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 from core.views import (
     CategoriaViewSet,
     ClienteViewSet,
+    CompraViewSet,
     PedidoViewSet,
     ProdutoViewSet,
     UserViewSet,
@@ -27,6 +28,7 @@ router.register(r"usuarios", UserViewSet, basename="usuarios")
 router.register(r"categorias", CategoriaViewSet, basename="categorias")
 router.register(r"produtos", ProdutoViewSet, basename="produtos")
 router.register(r"clientes", ClienteViewSet, basename="clientes")
+router.register(r"compras", CompraViewSet, basename="compras")
 router.registry.extend(uploader_router.registry)
 
 urlpatterns = [
