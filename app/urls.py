@@ -19,6 +19,8 @@ from core.views import (
     ProdutoViewSet,
     UserViewSet,
 )
+
+
 from uploader.router import router as uploader_router
 
 router = DefaultRouter()
