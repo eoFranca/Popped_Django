@@ -4,9 +4,10 @@ from rest_framework.serializers import (
     SerializerMethodField,
     SlugRelatedField,
 )
-from uploader.models import Image
+
 from core.models import Compra, ItensCompra
-from uploader.serializers import CompraImageSerializer, ImageSerializer 
+from uploader.models import Image
+from uploader.serializers import CompraImageSerializer, ImageSerializer
 
 
 class ItensCompraSerializer(ModelSerializer):
@@ -32,6 +33,7 @@ class CompraSerializer(ModelSerializer):
         write_only=True,
     )
     capa = CompraImageSerializer(required=False, read_only=True)
+
     class Meta:
         model = Compra
         fields = ("id", "usuario", "status", "total", "itens", "capa", "capa_attachment_key")

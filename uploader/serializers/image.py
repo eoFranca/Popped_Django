@@ -32,9 +32,9 @@ class ProductImageSerializer(serializers.ModelSerializer):
     class Meta:
         model = Image
         fields = ["url"]
-        
-        
+
+
 class CompraImageSerializer(serializers.ModelSerializer):
-    class Meta: 
+    class Meta:
         models = Image
         fields = ["url"]

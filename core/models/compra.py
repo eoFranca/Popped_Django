@@ -1,5 +1,7 @@
 from django.db import models
+
 from uploader.models import Image
+
 from .produto import Produto
 from .user import User
 
@@ -21,7 +23,7 @@ class Compra(models.Model):
         blank=True,
         default=None,
     )
-    
+
     @property
     def total(self):
         # total = 0
