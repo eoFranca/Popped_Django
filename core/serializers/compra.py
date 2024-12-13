@@ -1,6 +1,12 @@
-from rest_framework.serializers import CharField, ModelSerializer, SerializerMethodField
-
+from rest_framework.serializers import (
+    CharField,
+    ModelSerializer,
+    SerializerMethodField,
+    SlugRelatedField,
+)
+from uploader.models import Image
 from core.models import Compra, ItensCompra
+from uploader.serializers import CompraImageSerializer, ImageSerializer 
 
 
 class ItensCompraSerializer(ModelSerializer):
@@ -18,16 +24,27 @@ class ItensCompraSerializer(ModelSerializer):
 class CompraSerializer(ModelSerializer):
     status = CharField(source="get_status_display", read_only=True)
     itens = ItensCompraSerializer(many=True, read_only=True)
-
+    capa_attachment_key = SlugRelatedField(
+        source="capa",
+        queryset=Image.objects.all(),
+        slug_field="attachment_key",
+        required=False,
+        write_only=True,
+    )
+    capa = CompraImageSerializer(required=False, read_only=True)
     class Meta:
         model = Compra
-        fields = ("id", "usuario", "status", "total", "itens")
+        fields = ("id", "usuario", "status", "total", "itens", "capa", "capa_attachment_key")
 
 
 class ItensCompraCreateUpdateSerializer(ModelSerializer):
     class Meta:
         model = ItensCompra
         fields = ("produto", "quantidade")
+
+
+class CompraDetailSerializer(ModelSerializer):
+    capa = ImageSerializer(required=False)
 
 
 class CompraCreateUpdateSerializer(ModelSerializer):

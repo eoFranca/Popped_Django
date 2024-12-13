@@ -1,5 +1,5 @@
 from django.db import models
-
+from uploader.models import Image
 from .produto import Produto
 from .user import User
 
@@ -13,7 +13,15 @@ class Compra(models.Model):
 
     usuario = models.ForeignKey(User, on_delete=models.PROTECT, related_name="compras")
     status = models.IntegerField(choices=StatusCompra.choices, default=StatusCompra.CARRINHO)
-
+    capa = models.ForeignKey(
+        Image,
+        related_name="+",
+        on_delete=models.SET_NULL,
+        null=True,
+        blank=True,
+        default=None,
+    )
+    
     @property
     def total(self):
         # total = 0
