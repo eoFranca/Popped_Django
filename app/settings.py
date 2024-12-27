@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     "drf_spectacular",
     "rest_framework",
     "rest_framework_simplejwt",
+    "uploader",
     "core",
 ]
 
@@ -134,13 +135,19 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 AUTH_USER_MODEL = "core.User"
 
 REST_FRAMEWORK = {
-    # "DEFAULT_AUTHENTICATION_CLASSES": ("rest_framework_simplejwt.authentication.JWTAuthentication",),
-    # "DEFAULT_PERMISSION_CLASSES": ("rest_framework.permissions.DjangoModelPermissions",),
-    # "DEFAULT_AUTHENTICATION_CLASSES": ("core.authentication.TokenAuthentication",),
-    "DEFAULT_PERMISSION_CLASSES": ("rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly",),
+    "DEFAULT_PERMISSION_CLASSES": [
+        "rest_framework.permissions.IsAuthenticated",
+    ],
+    "DEFAULT_AUTHENTICATION_CLASSES": ("rest_framework_simplejwt.authentication.JWTAuthentication",),
+    "DEFAULT_PERMISSION_CLASSES": ("rest_framework.permissions.DjangoModelPermissions",),
+    "DEFAULT_AUTHENTICATION_CLASSES": ("core.authentication.TokenAuthentication",),  # Autenticação no passage.id
+    "DEFAULT_PERMISSION_CLASSES": (
+        "rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly",
+    ),  # autorização de acesso
     "DEFAULT_PAGINATION_CLASS": "rest_framework.pagination.PageNumberPagination",
     "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
     "PAGE_SIZE": 10,
+    "DEFAULT_FILTER_BACKENDS": ("django_filters.rest_framework.DjangoFilterBackend",),
 }
 
 SIMPLE_JWT = {

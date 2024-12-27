@@ -1,0 +1,2583 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-06-18T18:23:52.651Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "1",
+    "object_repr": "a@a.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Passage id\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-06-24T17:27:12.114Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "1",
+    "object_repr": "a@a.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-08-24T16:11:18.371Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Popped Energy - Energy Drink ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-08-24T16:11:33.021Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Bedidas",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-08-24T16:11:42.434Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Roupas",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-08-24T16:11:50.587Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Bolsas",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-08-24T16:12:03.242Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Copos",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-08-24T16:19:42.986Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Popped Forget - Soda ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2024-08-24T16:38:26.922Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Rafael de França - erfranca.com@gmail.com",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2024-08-24T16:51:11.272Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Popped Forget - Soda ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Categoria\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2024-08-24T16:51:17.909Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Popped Energy - Energy Drink ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Categoria\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2024-09-06T12:05:30.915Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Forget - Refrigerante ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2024-09-06T12:10:08.415Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Pedido 1 - R$10",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2024-09-06T12:17:57.397Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Pedido 2 - R$14.99",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2024-09-06T12:19:26.708Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Pedido 3 - R$14.99",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2024-09-06T12:21:25.995Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "Pedido 4 - R$14.99",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2024-09-06T12:22:14.333Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Leandro - Casaco ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2024-09-06T12:22:35.090Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "5",
+    "object_repr": "Pedido 5 - R$50.00",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2024-09-06T12:28:34.543Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "6",
+    "object_repr": "Pedido 6 - R$50.00",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2024-09-10T18:57:22.004Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "6",
+    "object_repr": "Pedido 6 - R$50.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2024-09-10T18:57:26.905Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "5",
+    "object_repr": "Pedido 5 - R$50.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2024-09-10T18:57:30.542Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "Pedido 4 - R$14.99",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2024-09-10T18:57:34.405Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Pedido 3 - R$14.99",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2024-09-10T18:57:39.260Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Pedido 2 - R$14.99",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2024-09-10T18:57:43.404Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Pedido 1 - R$5.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2024-09-10T18:59:01.920Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "francez - Refrigerante ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2024-09-10T18:59:23.538Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "7",
+    "object_repr": "Pedido 7 - R$5000.00",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2024-10-01T11:16:09.806Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "Men Hoodie Mockup Front - 90cc03ad-ad87-4f6c-9eac-4da8b399005b",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2024-10-01T11:18:22.863Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "2",
+    "object_repr": "Cap-Mockup-Front-And-Back-View-UV - 113f00d5-e6f4-4f32-b0b4-2b07d7480a08",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2024-10-01T11:18:49.745Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "3",
+    "object_repr": "Beanie-Mockup-Front-and-Back-View-1-d - 5b18ec13-f5e1-4a16-a000-600cb00a650c",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2024-10-01T11:19:09.588Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "4",
+    "object_repr": "Beanie-Mockup-Front-and-Back-View-1 - ef1bf349-b14d-47b1-979d-a73e1a70d3d1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2024-10-01T11:19:46.255Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "5",
+    "object_repr": "Men-Hoodie-Mockup-Front-View-1 - e1c7ba46-fc60-4d5e-a8da-96a169c7cc38",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2024-10-01T11:21:00.227Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "Moletom Branco - 90cc03ad-ad87-4f6c-9eac-4da8b399005b",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2024-10-01T11:21:26.030Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "2",
+    "object_repr": "boné Branco - 113f00d5-e6f4-4f32-b0b4-2b07d7480a08",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2024-10-01T11:22:49.873Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "3",
+    "object_repr": "Beanie Black - 5b18ec13-f5e1-4a16-a000-600cb00a650c",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2024-10-01T11:23:08.005Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "Hoodie White - 90cc03ad-ad87-4f6c-9eac-4da8b399005b",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2024-10-01T11:23:19.509Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "2",
+    "object_repr": "Cap White - 113f00d5-e6f4-4f32-b0b4-2b07d7480a08",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2024-10-01T11:23:50.451Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "5",
+    "object_repr": "Hoodie Black - e1c7ba46-fc60-4d5e-a8da-96a169c7cc38",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2024-10-01T11:24:12.391Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "4",
+    "object_repr": "Beanie Black - ef1bf349-b14d-47b1-979d-a73e1a70d3d1",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2024-10-01T11:24:29.380Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "3",
+    "object_repr": "Beanie White - 5b18ec13-f5e1-4a16-a000-600cb00a650c",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2024-10-01T11:25:35.730Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "6",
+    "object_repr": "T-shirt Black - 0dc0f1a3-f351-46ed-a608-a0d8ebadff43",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2024-10-01T11:26:17.206Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "7",
+    "object_repr": "T-Shirt White - 970e62a2-66e9-4e09-a28f-e8a622ce0930",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2024-10-01T11:26:22.364Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "7",
+    "object_repr": "T-Shirt White - 970e62a2-66e9-4e09-a28f-e8a622ce0930",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2024-10-01T11:26:29.000Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "6",
+    "object_repr": "T-Shirt Black - 0dc0f1a3-f351-46ed-a608-a0d8ebadff43",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2024-10-01T11:28:24.561Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "8",
+    "object_repr": "Mug White - edd22be5-7483-4114-b0a0-6d1293406acd",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2024-10-01T11:28:43.333Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "9",
+    "object_repr": "Mug black - ccf7bf6b-2ef6-415c-abc9-229c883e174b",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2024-10-01T11:30:00.451Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "10",
+    "object_repr": "Air Force Popped - ef3eeed5-a2bc-4363-80bd-99e59c8f9992",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2024-10-01T11:31:32.153Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "11",
+    "object_repr": "Paper cup Popped - c4d3f916-c353-42b3-954c-f056a389b308",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2024-10-01T11:32:11.718Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "12",
+    "object_repr": "Shopping Bag Popped - d01e5b6f-9531-412a-9bb6-436b299401d1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2024-10-01T11:33:07.329Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "13",
+    "object_repr": "Tote Bag Popped - d0494ce2-481e-4202-9446-2ec9858dba21",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2024-10-01T11:33:36.744Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "14",
+    "object_repr": "Tote Bags Black and White - 26104046-b9ff-476d-ac48-8883493945c5",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2024-10-01T11:37:34.680Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Tote Bags Black and White - Bags ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2024-10-01T11:38:14.534Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "Tote Bag Popped - Bag ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2024-10-01T11:39:05.087Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "Shopping Bag Popped - Bag ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2024-10-01T11:40:03.272Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "Paper Cup Popped - Cup ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2024-10-01T11:41:19.073Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "10",
+    "object_repr": "Mug Black - Mug ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2024-10-01T11:41:44.860Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "11",
+    "object_repr": "Mug White - Mug ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2024-10-01T11:44:35.987Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "12",
+    "object_repr": "T-Shirt White - T-shirt ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2024-10-01T11:45:11.183Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "13",
+    "object_repr": "T-Shirt Black - T-shirt ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2024-10-01T11:47:12.787Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "14",
+    "object_repr": "Hoodie White - Hoodie ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2024-10-01T11:47:39.974Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "15",
+    "object_repr": "Hoodie Black - Hoodie ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2024-10-01T11:48:51.334Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "16",
+    "object_repr": "Beanie Black - Beanie ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2024-10-01T11:49:20.875Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "17",
+    "object_repr": "Beanie White - Beanie ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2024-10-01T11:49:56.055Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "18",
+    "object_repr": "Cap white - Cap ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2024-10-01T11:53:03.270Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "19",
+    "object_repr": "Nike Air-Force Popped - Shoes ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2024-10-01T16:53:42.169Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "8",
+    "object_repr": "Pedido 8 - R$70.00",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2024-10-01T16:53:51.058Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "8",
+    "object_repr": "Pedido 8 - R$70.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2024-10-01T16:53:54.395Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "7",
+    "object_repr": "Pedido 7 - R$5000.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2024-10-04T11:19:17.524Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "9",
+    "object_repr": "Pedido 9 - R$18.99",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2024-10-04T11:32:09.165Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "10",
+    "object_repr": "Pedido 10 - R$14.99",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2024-10-04T11:45:15.421Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "11",
+    "object_repr": "Pedido 11 - R$14.99",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2024-10-08T18:02:45.912Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Leandro - Casaco ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2024-10-08T18:02:50.786Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "francez - Refrigerante ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2024-10-08T18:08:42.783Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Forget - Refrigerante ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2024-10-08T18:08:46.177Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Popped Forget - Soda ",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2024-10-08T18:08:56.535Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "11",
+    "object_repr": "Pedido 11 - R$14.99",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2024-10-08T18:09:01.244Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "10",
+    "object_repr": "Pedido 10 - R$14.99",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2024-10-08T18:09:04.526Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "9",
+    "object_repr": "Pedido 9 - R$18.99",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2024-10-08T18:09:09.839Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Popped Forget - Soda ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2024-10-08T18:09:15.503Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Popped Energy - Energy Drink ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2024-10-08T18:29:25.615Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Pedido 1 - R$core.Produto.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2024-10-08T18:40:23.387Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "2 - Tote Bags Black and White: R$12.00, Tote Bag Popped: R$12.00, Shopping Bag Popped: R$7.00",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2024-10-08T19:34:34.176Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "3 - Tote Bags Black and White: R$12.00, Tote Bag Popped: R$12.00",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2024-10-09T17:14:08.301Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "15",
+    "object_repr": "Icon - Cups - 4205b58d-b6dc-423d-9508-044eeb40c202",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2024-10-09T17:14:37.568Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "16",
+    "object_repr": "Icon - Bag - c6638b68-1a18-4591-86eb-f901e82c96cb",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 86,
+  "fields": {
+    "action_time": "2024-10-09T17:15:27.594Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "17",
+    "object_repr": "Icon - Clothing - 08ecb6dc-4535-452a-b9ae-fe7bd5b04336",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 87,
+  "fields": {
+    "action_time": "2024-10-09T17:15:53.037Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "18",
+    "object_repr": "Icon - Drinks - cebc37fa-3b66-4842-83c0-635f861c1c5a",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 88,
+  "fields": {
+    "action_time": "2024-10-09T17:16:01.726Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Copos",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 89,
+  "fields": {
+    "action_time": "2024-10-09T17:16:07.225Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Bolsas",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 90,
+  "fields": {
+    "action_time": "2024-10-09T17:16:12.792Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Roupas",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 91,
+  "fields": {
+    "action_time": "2024-10-09T17:16:18.332Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Bedidas",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 92,
+  "fields": {
+    "action_time": "2024-10-18T11:49:57.844Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "19",
+    "object_repr": "Popped - 95c3d60e-572c-499b-bb1a-ad47bf5aee17",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 93,
+  "fields": {
+    "action_time": "2024-10-18T11:50:55.894Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "20",
+    "object_repr": "Outdor - 1 - 1ec7fbb0-f4a3-414c-97ec-02ed43fbaeec",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 94,
+  "fields": {
+    "action_time": "2024-10-18T11:51:24.463Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "21",
+    "object_repr": "Outdor - 2 - 9678042e-68ae-4887-ae16-61a44cc00dec",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 95,
+  "fields": {
+    "action_time": "2024-10-18T11:51:47.081Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "22",
+    "object_repr": "Outdor - 3 - 5ac60b62-a28b-4f95-a721-fba4bcef5262",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 96,
+  "fields": {
+    "action_time": "2024-10-18T11:52:28.563Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "23",
+    "object_repr": "PineApple - ae1a120b-84c4-4503-b9fd-7c7aa2d0cadf",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 97,
+  "fields": {
+    "action_time": "2024-10-18T11:52:54.193Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "24",
+    "object_repr": "Popped Cola - 0c03829c-79da-4b56-bd92-e5fc0b76d87f",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 98,
+  "fields": {
+    "action_time": "2024-10-18T11:53:25.557Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "25",
+    "object_repr": "Original - bb4e9a37-21da-4990-a7a7-c442ad7ba794",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 99,
+  "fields": {
+    "action_time": "2024-10-18T11:53:53.655Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "26",
+    "object_repr": "Forget - ca9a1f54-0e4b-4277-8713-77e08096e12e",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 100,
+  "fields": {
+    "action_time": "2024-10-18T11:54:15.549Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "27",
+    "object_repr": "Enwegy - 00b5a5b0-e180-4e78-a765-011292f4135c",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 101,
+  "fields": {
+    "action_time": "2024-10-18T11:54:50.065Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "28",
+    "object_repr": "Advertising - 5e279bde-bd62-4955-94df-34d47e01e550",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 102,
+  "fields": {
+    "action_time": "2024-10-18T11:55:23.579Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "27",
+    "object_repr": "Energy - 00b5a5b0-e180-4e78-a765-011292f4135c",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 103,
+  "fields": {
+    "action_time": "2024-10-29T11:33:53.006Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Bedidas",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add Usuário",
+    "content_type": 6,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change Usuário",
+    "content_type": 6,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete Usuário",
+    "content_type": 6,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view Usuário",
+    "content_type": 6,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add categoria",
+    "content_type": 7,
+    "codename": "add_categoria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change categoria",
+    "content_type": 7,
+    "codename": "change_categoria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete categoria",
+    "content_type": 7,
+    "codename": "delete_categoria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view categoria",
+    "content_type": 7,
+    "codename": "view_categoria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add produto",
+    "content_type": 8,
+    "codename": "add_produto"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change produto",
+    "content_type": 8,
+    "codename": "change_produto"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete produto",
+    "content_type": 8,
+    "codename": "delete_produto"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view produto",
+    "content_type": 8,
+    "codename": "view_produto"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add cliente",
+    "content_type": 9,
+    "codename": "add_cliente"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change cliente",
+    "content_type": 9,
+    "codename": "change_cliente"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete cliente",
+    "content_type": 9,
+    "codename": "delete_cliente"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view cliente",
+    "content_type": 9,
+    "codename": "view_cliente"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add pedido",
+    "content_type": 10,
+    "codename": "add_pedido"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change pedido",
+    "content_type": 10,
+    "codename": "change_pedido"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete pedido",
+    "content_type": 10,
+    "codename": "delete_pedido"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view pedido",
+    "content_type": 10,
+    "codename": "view_pedido"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add document",
+    "content_type": 11,
+    "codename": "add_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change document",
+    "content_type": 11,
+    "codename": "change_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete document",
+    "content_type": 11,
+    "codename": "delete_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view document",
+    "content_type": 11,
+    "codename": "view_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add image",
+    "content_type": 12,
+    "codename": "add_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change image",
+    "content_type": 12,
+    "codename": "change_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete image",
+    "content_type": 12,
+    "codename": "delete_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view image",
+    "content_type": 12,
+    "codename": "view_image"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "core",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "core",
+    "model": "categoria"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "core",
+    "model": "produto"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "core",
+    "model": "cliente"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "core",
+    "model": "pedido"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "uploader",
+    "model": "document"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "uploader",
+    "model": "image"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "34haidy4uhwow6oaodbemc5y3ps0gv84",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-YoeSPmewdtdrHEC2lE-FuDtESgHtm5n3Egm2taZt4TlNWVyEFqffDYEe3HaQ79BuXVJv6zyh3BV50EWOPfPzerh_BxWW-q3JxiFYBs7O6ahwcMjW2-gJSqTI3tNZmwCY9WCoEFhDqILCwkVFpcX7A-4lOFg:1shtKu:EfM1uJcYTA2vJqHctE3VyBCLW-GjlsMnehghT4UU4qI",
+    "expire_date": "2024-09-07T16:09:56.669Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "60aibj2qccnugrjh11uyhrhmwzdui1oh",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-YoeSPmewdtdrHEC2lE-FuDtESgHtm5n3Egm2taZt4TlNWVyEFqffDYEe3HaQ79BuXVJv6zyh3BV50EWOPfPzerh_BxWW-q3JxiFYBs7O6ahwcMjW2-gJSqTI3tNZmwCY9WCoEFhDqILCwkVFpcX7A-4lOFg:1sLnSm:j0HQkjbNxWzfywH481e3iiy2qq08knrwB1ZLaagwRb0",
+    "expire_date": "2024-07-08T17:26:44.741Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "6vc2p6upw1p7g4s001w3obqnpuwmkaiz",
+  "fields": {
+    "session_data": ".eJxVjDEOgzAQBP_iOrIMBp-dMj1vQLe-I5BEIGGoovw9QqJI2p2ZfZue923s96JrP4m5mspcfjdwfup8AHnwfF9sXuZtnWAPxZ602G4Rfd1O9-9g5DIetSbVmAZqwAhccx2pbTPgCBolwFeu8SSCGNIQE3kgejBxphQczOcLCvI4pw:1t5kQe:9SDyDK5RRNUth8fyWNw4y2dzUkBCP3L3u7rX3T5RsrA",
+    "expire_date": "2024-11-12T11:30:28.272Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "85eq3b89juzscdawze0s1mflkffk8sam",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-YoeSPmewdtdrHEC2lE-FuDtESgHtm5n3Egm2taZt4TlNWVyEFqffDYEe3HaQ79BuXVJv6zyh3BV50EWOPfPzerh_BxWW-q3JxiFYBs7O6ahwcMjW2-gJSqTI3tNZmwCY9WCoEFhDqILCwkVFpcX7A-4lOFg:1syDrK:m808actdfMrnMO4VNif8UnfCLdzRC2b-kOnvVBzOmrg",
+    "expire_date": "2024-10-22T17:18:54.416Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "bh9pf1ccs5xwqk7q5fc1ck5eug6lmwen",
+  "fields": {
+    "session_data": ".eJxVjDEOgzAQBP_iOrIMBp-dMj1vQLe-I5BEIGGoovw9QqJI2p2ZfZue923s96JrP4m5mspcfjdwfup8AHnwfF9sXuZtnWAPxZ602G4Rfd1O9-9g5DIetSbVmAZqwAhccx2pbTPgCBolwFeu8SSCGNIQE3kgejBxphQczOcLCvI4pw:1syFOE:-2PhXRXnOa3DqumoS0RzYREusmgufYJMYysT3ZWeq0k",
+    "expire_date": "2024-10-22T18:56:58.097Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "egvtxt3usaaj2kcsh8l20tswlv7zf8ry",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-YoeSPmewdtdrHEC2lE-FuDtESgHtm5n3Egm2taZt4TlNWVyEFqffDYEe3HaQ79BuXVJv6zyh3BV50EWOPfPzerh_BxWW-q3JxiFYBs7O6ahwcMjW2-gJSqTI3tNZmwCY9WCoEFhDqILCwkVFpcX7A-4lOFg:1t5qiR:9JCzWTXwqjXNVSUymenZe0HGovgPf8fcv-fjz9y6_l8",
+    "expire_date": "2024-11-12T18:13:15.806Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "fz7tijv1q2bifyhj8dm3vf4uis09v1aw",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-YoeSPmewdtdrHEC2lE-FuDtESgHtm5n3Egm2taZt4TlNWVyEFqffDYEe3HaQ79BuXVJv6zyh3BV50EWOPfPzerh_BxWW-q3JxiFYBs7O6ahwcMjW2-gJSqTI3tNZmwCY9WCoEFhDqILCwkVFpcX7A-4lOFg:1swgKD:2TRVzjh1Y9spvSDb3SX7pYXFwIgfl8b_snApxu-DGq4",
+    "expire_date": "2024-10-18T11:18:21.646Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "idotlyp06smtoiqkmkjgt34706xf69z7",
+  "fields": {
+    "session_data": ".eJxVjDEOgzAQBP_iOrIMBp-dMj1vQLe-I5BEIGGoovw9QqJI2p2ZfZue923s96JrP4m5mspcfjdwfup8AHnwfF9sXuZtnWAPxZ602G4Rfd1O9-9g5DIetSbVmAZqwAhccx2pbTPgCBolwFeu8SSCGNIQE3kgejBxphQczOcLCvI4pw:1syap3:kKymA6y96C6omXaaPcwY0JUY5NsD4FU9gt1qJjTWEso",
+    "expire_date": "2024-10-23T17:50:05.240Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "igbwg8rixgdinzpun61m8ad5uoengoqh",
+  "fields": {
+    "session_data": ".eJxVjDEOgzAQBP_iOrIMBp-dMj1vQLe-I5BEIGGoovw9QqJI2p2ZfZue923s96JrP4m5mspcfjdwfup8AHnwfF9sXuZtnWAPxZ602G4Rfd1O9-9g5DIetSbVmAZqwAhccx2pbTPgCBolwFeu8SSCGNIQE3kgejBxphQczOcLCvI4pw:1syFeK:mt7iNu4md3bQsDT678mpE8Y46UYj04QZ9_UkW59WhgU",
+    "expire_date": "2024-10-22T19:13:36.007Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "m51e394zmyyetw61xu2mgq0mx8jdagl4",
+  "fields": {
+    "session_data": ".eJxVjDEOgzAQBP_iOrIMBp-dMj1vQLe-I5BEIGGoovw9QqJI2p2ZfZue923s96JrP4m5mspcfjdwfup8AHnwfF9sXuZtnWAPxZ602G4Rfd1O9-9g5DIetSbVmAZqwAhccx2pbTPgCBolwFeu8SSCGNIQE3kgejBxphQczOcLCvI4pw:1svg7Q:piZmIormSHCeyUtKEVmvQknCAG2GRv2zxd8W1mpGNz8",
+    "expire_date": "2024-10-15T16:53:00.775Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "p47wa8fsk7zhrzr4sl24lctlrhwenfsx",
+  "fields": {
+    "session_data": ".eJxVjDEOgzAQBP_iOrIMBp-dMj1vQLe-I5BEIGGoovw9QqJI2p2ZfZue923s96JrP4m5mspcfjdwfup8AHnwfF9sXuZtnWAPxZ602G4Rfd1O9-9g5DIetSbVmAZqwAhccx2pbTPgCBolwFeu8SSCGNIQE3kgejBxphQczOcLCvI4pw:1syGLZ:f1c1JIDoNlLrjSBynv58vK_lprqdZXHYTX4uLabITLY",
+    "expire_date": "2024-10-22T19:58:17.111Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "qjnkvgn2uwakctn0gtxgq604xehw1ytu",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-YoeSPmewdtdrHEC2lE-FuDtESgHtm5n3Egm2taZt4TlNWVyEFqffDYEe3HaQ79BuXVJv6zyh3BV50EWOPfPzerh_BxWW-q3JxiFYBs7O6ahwcMjW2-gJSqTI3tNZmwCY9WCoEFhDqILCwkVFpcX7A-4lOFg:1shT73:tNWNlOLnWRUpS1Dp7Wub_xlpH1XLnHCl3wOT46dWpNg",
+    "expire_date": "2024-09-06T12:09:53.155Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "rtexk8ok0dgmjfr3un9nwqqc76c6zwnk",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-YoeSPmewdtdrHEC2lE-FuDtESgHtm5n3Egm2taZt4TlNWVyEFqffDYEe3HaQ79BuXVJv6zyh3BV50EWOPfPzerh_BxWW-q3JxiFYBs7O6ahwcMjW2-gJSqTI3tNZmwCY9WCoEFhDqILCwkVFpcX7A-4lOFg:1syaFo:HHAVj5AZHBWzvgm2f3o9RAXKQwH84IF1JDoIIP7Mzak",
+    "expire_date": "2024-10-23T17:13:40.663Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "sfhoq5a4h9i166rb0roko8qbdo4gzpb5",
+  "fields": {
+    "session_data": ".eJxVjDEOgzAQBP_iOrIMBp-dMj1vQLe-I5BEIGGoovw9QqJI2p2ZfZue923s96JrP4m5mspcfjdwfup8AHnwfF9sXuZtnWAPxZ602G4Rfd1O9-9g5DIetSbVmAZqwAhccx2pbTPgCBolwFeu8SSCGNIQE3kgejBxphQczOcLCvI4pw:1smWpe:o-d6oALhoLwGfLDpj2OBAlnoOovQ-Le2wP7usYPJPL0",
+    "expire_date": "2024-09-20T11:08:50.997Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "t8q6dsobp1koctuln7nznyaq9trnk6x1",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-YoeSPmewdtdrHEC2lE-FuDtESgHtm5n3Egm2taZt4TlNWVyEFqffDYEe3HaQ79BuXVJv6zyh3BV50EWOPfPzerh_BxWW-q3JxiFYBs7O6ahwcMjW2-gJSqTI3tNZmwCY9WCoEFhDqILCwkVFpcX7A-4lOFg:1syEpO:uG_CnU-1PNETu3QUVyxr3l8wc5Fp5OEPF4EP08Uwe6A",
+    "expire_date": "2024-10-22T18:20:58.924Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "tqxuv2jd0btlxxpwlttz45bs54apwfaa",
+  "fields": {
+    "session_data": ".eJxVjDEOgzAQBP_iOrIMBp-dMj1vQLe-I5BEIGGoovw9QqJI2p2ZfZue923s96JrP4m5mspcfjdwfup8AHnwfF9sXuZtnWAPxZ602G4Rfd1O9-9g5DIetSbVmAZqwAhccx2pbTPgCBolwFeu8SSCGNIQE3kgejBxphQczOcLCvI4pw:1tAw9Y:2Lc8V2SFno2_fi2vKqokX4qvt7Sq5iBCdGul6HcqJss",
+    "expire_date": "2024-11-26T19:02:16.148Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "uwdiuvcngh2c5yqhod3fi5e3itn8vza2",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-YoeSPmewdtdrHEC2lE-FuDtESgHtm5n3Egm2taZt4TlNWVyEFqffDYEe3HaQ79BuXVJv6zyh3BV50EWOPfPzerh_BxWW-q3JxiFYBs7O6ahwcMjW2-gJSqTI3tNZmwCY9WCoEFhDqILCwkVFpcX7A-4lOFg:1swgOX:8uyPUrJ0OUW9qKU3ZvGYlZvxbe8VYHOsHQOmyU1uBwE",
+    "expire_date": "2024-10-18T11:22:49.510Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "wl8eabdslonojajpj97fcszp3ryxk9x4",
+  "fields": {
+    "session_data": ".eJxVjDEOgzAQBP_iOrIMBp-dMj1vQLe-I5BEIGGoovw9QqJI2p2ZfZue923s96JrP4m5mspcfjdwfup8AHnwfF9sXuZtnWAPxZ602G4Rfd1O9-9g5DIetSbVmAZqwAhccx2pbTPgCBolwFeu8SSCGNIQE3kgejBxphQczOcLCvI4pw:1svamf:cwlhvCXZ9RZLtsqY_48AjmqUVP3oXlejuHYkEmamtX4",
+    "expire_date": "2024-10-15T11:11:13.536Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "yjwv42hyi55wpakgz1o8ls91ty7eqe1u",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-YoeSPmewdtdrHEC2lE-FuDtESgHtm5n3Egm2taZt4TlNWVyEFqffDYEe3HaQ79BuXVJv6zyh3BV50EWOPfPzerh_BxWW-q3JxiFYBs7O6ahwcMjW2-gJSqTI3tNZmwCY9WCoEFhDqILCwkVFpcX7A-4lOFg:1sJdUV:rY8hd_2m2u3YGGz5LW3BFQGgHfshutei7gPRDpzv9kY",
+    "expire_date": "2024-07-02T18:23:35.702Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 1,
+  "fields": {
+    "attachment_key": "90cc03ad-ad87-4f6c-9eac-4da8b399005b",
+    "public_id": "920836e6-e091-4fd2-ae58-7788e89ad05b",
+    "file": "images/920836e6-e091-4fd2-ae58-7788e89ad05b.png",
+    "description": "Hoodie White",
+    "uploaded_on": "2024-10-01T11:16:09.805Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 2,
+  "fields": {
+    "attachment_key": "113f00d5-e6f4-4f32-b0b4-2b07d7480a08",
+    "public_id": "fb955b7d-da40-4f97-8669-4f14304cfbe6",
+    "file": "images/fb955b7d-da40-4f97-8669-4f14304cfbe6.png",
+    "description": "Cap White",
+    "uploaded_on": "2024-10-01T11:18:22.862Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 3,
+  "fields": {
+    "attachment_key": "5b18ec13-f5e1-4a16-a000-600cb00a650c",
+    "public_id": "bfa2ac07-060c-4ef9-8468-01f776a3c633",
+    "file": "images/bfa2ac07-060c-4ef9-8468-01f776a3c633.png",
+    "description": "Beanie White",
+    "uploaded_on": "2024-10-01T11:18:49.743Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 4,
+  "fields": {
+    "attachment_key": "ef1bf349-b14d-47b1-979d-a73e1a70d3d1",
+    "public_id": "4db1b10f-7fbe-459c-80aa-1d91aff3f9c6",
+    "file": "images/4db1b10f-7fbe-459c-80aa-1d91aff3f9c6.png",
+    "description": "Beanie Black",
+    "uploaded_on": "2024-10-01T11:19:09.587Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 5,
+  "fields": {
+    "attachment_key": "e1c7ba46-fc60-4d5e-a8da-96a169c7cc38",
+    "public_id": "57b1c0a0-7f7e-41f1-aea6-78040b180dfe",
+    "file": "images/57b1c0a0-7f7e-41f1-aea6-78040b180dfe.png",
+    "description": "Hoodie Black",
+    "uploaded_on": "2024-10-01T11:19:46.254Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 6,
+  "fields": {
+    "attachment_key": "0dc0f1a3-f351-46ed-a608-a0d8ebadff43",
+    "public_id": "23338a56-7cfc-40dd-baa5-a4e1f0d3460d",
+    "file": "images/23338a56-7cfc-40dd-baa5-a4e1f0d3460d.png",
+    "description": "T-Shirt Black",
+    "uploaded_on": "2024-10-01T11:25:35.729Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 7,
+  "fields": {
+    "attachment_key": "970e62a2-66e9-4e09-a28f-e8a622ce0930",
+    "public_id": "a58f21ed-1989-454e-9b18-bff10ca1b00d",
+    "file": "images/a58f21ed-1989-454e-9b18-bff10ca1b00d.png",
+    "description": "T-Shirt White",
+    "uploaded_on": "2024-10-01T11:26:17.205Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 8,
+  "fields": {
+    "attachment_key": "edd22be5-7483-4114-b0a0-6d1293406acd",
+    "public_id": "02f6e761-012c-45b0-89fd-d501b4593f2c",
+    "file": "images/02f6e761-012c-45b0-89fd-d501b4593f2c.png",
+    "description": "Mug White",
+    "uploaded_on": "2024-10-01T11:28:24.559Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 9,
+  "fields": {
+    "attachment_key": "ccf7bf6b-2ef6-415c-abc9-229c883e174b",
+    "public_id": "d72eba39-0862-4813-922c-d0e76e4aae03",
+    "file": "images/d72eba39-0862-4813-922c-d0e76e4aae03.png",
+    "description": "Mug black",
+    "uploaded_on": "2024-10-01T11:28:43.332Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 10,
+  "fields": {
+    "attachment_key": "ef3eeed5-a2bc-4363-80bd-99e59c8f9992",
+    "public_id": "0364c641-4c53-454c-be7c-5b0c80b338c6",
+    "file": "images/0364c641-4c53-454c-be7c-5b0c80b338c6.png",
+    "description": "Air Force Popped",
+    "uploaded_on": "2024-10-01T11:30:00.449Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 11,
+  "fields": {
+    "attachment_key": "c4d3f916-c353-42b3-954c-f056a389b308",
+    "public_id": "25a13143-d97a-41cb-9ddc-1676d652e101",
+    "file": "images/25a13143-d97a-41cb-9ddc-1676d652e101.png",
+    "description": "Paper cup Popped",
+    "uploaded_on": "2024-10-01T11:31:32.151Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 12,
+  "fields": {
+    "attachment_key": "d01e5b6f-9531-412a-9bb6-436b299401d1",
+    "public_id": "752b5ef9-e608-4117-898d-b290f005f2a6",
+    "file": "images/752b5ef9-e608-4117-898d-b290f005f2a6.png",
+    "description": "Shopping Bag Popped",
+    "uploaded_on": "2024-10-01T11:32:11.716Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 13,
+  "fields": {
+    "attachment_key": "d0494ce2-481e-4202-9446-2ec9858dba21",
+    "public_id": "49273469-74b8-4aca-8fde-14e41a9bf29a",
+    "file": "images/49273469-74b8-4aca-8fde-14e41a9bf29a.png",
+    "description": "Tote Bag Popped",
+    "uploaded_on": "2024-10-01T11:33:07.328Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 14,
+  "fields": {
+    "attachment_key": "26104046-b9ff-476d-ac48-8883493945c5",
+    "public_id": "a3bdca5d-f51c-49fd-9292-5e944b2c7388",
+    "file": "images/a3bdca5d-f51c-49fd-9292-5e944b2c7388.png",
+    "description": "Tote Bags Black and White",
+    "uploaded_on": "2024-10-01T11:33:36.743Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 15,
+  "fields": {
+    "attachment_key": "4205b58d-b6dc-423d-9508-044eeb40c202",
+    "public_id": "2402aab8-cba2-473d-856a-9ffaf07af133",
+    "file": "images/2402aab8-cba2-473d-856a-9ffaf07af133.png",
+    "description": "Icon - Cups",
+    "uploaded_on": "2024-10-09T17:14:08.301Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 16,
+  "fields": {
+    "attachment_key": "c6638b68-1a18-4591-86eb-f901e82c96cb",
+    "public_id": "767157bb-ef1c-4b83-9df5-a4584a91ba18",
+    "file": "images/767157bb-ef1c-4b83-9df5-a4584a91ba18.png",
+    "description": "Icon - Bag",
+    "uploaded_on": "2024-10-09T17:14:37.566Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 17,
+  "fields": {
+    "attachment_key": "08ecb6dc-4535-452a-b9ae-fe7bd5b04336",
+    "public_id": "4d5c2adb-8354-4fda-ba09-44d3ed493519",
+    "file": "images/4d5c2adb-8354-4fda-ba09-44d3ed493519.png",
+    "description": "Icon - Clothing",
+    "uploaded_on": "2024-10-09T17:15:27.594Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 18,
+  "fields": {
+    "attachment_key": "cebc37fa-3b66-4842-83c0-635f861c1c5a",
+    "public_id": "a2e996e3-13a1-4baf-9d29-4d00715dcbea",
+    "file": "images/a2e996e3-13a1-4baf-9d29-4d00715dcbea.png",
+    "description": "Icon - Drinks",
+    "uploaded_on": "2024-10-09T17:15:53.037Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 19,
+  "fields": {
+    "attachment_key": "95c3d60e-572c-499b-bb1a-ad47bf5aee17",
+    "public_id": "4ce31c2b-93d3-43b4-9630-5da372936c94",
+    "file": "images/4ce31c2b-93d3-43b4-9630-5da372936c94.png",
+    "description": "Popped",
+    "uploaded_on": "2024-10-18T11:49:57.843Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 20,
+  "fields": {
+    "attachment_key": "1ec7fbb0-f4a3-414c-97ec-02ed43fbaeec",
+    "public_id": "678e3199-12ee-477e-a6e7-ff9281607779",
+    "file": "images/678e3199-12ee-477e-a6e7-ff9281607779.png",
+    "description": "Outdor - 1",
+    "uploaded_on": "2024-10-18T11:50:55.894Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 21,
+  "fields": {
+    "attachment_key": "9678042e-68ae-4887-ae16-61a44cc00dec",
+    "public_id": "7f8f7f6b-d540-498b-8ab3-b6dd29d29043",
+    "file": "images/7f8f7f6b-d540-498b-8ab3-b6dd29d29043.png",
+    "description": "Outdor - 2",
+    "uploaded_on": "2024-10-18T11:51:24.462Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 22,
+  "fields": {
+    "attachment_key": "5ac60b62-a28b-4f95-a721-fba4bcef5262",
+    "public_id": "d44a2b5c-d910-461f-9705-f8be8087caac",
+    "file": "images/d44a2b5c-d910-461f-9705-f8be8087caac.png",
+    "description": "Outdor - 3",
+    "uploaded_on": "2024-10-18T11:51:47.080Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 23,
+  "fields": {
+    "attachment_key": "ae1a120b-84c4-4503-b9fd-7c7aa2d0cadf",
+    "public_id": "a6fe94b6-e788-4d4c-8af8-7a0f5d608044",
+    "file": "images/a6fe94b6-e788-4d4c-8af8-7a0f5d608044.png",
+    "description": "PineApple",
+    "uploaded_on": "2024-10-18T11:52:28.562Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 24,
+  "fields": {
+    "attachment_key": "0c03829c-79da-4b56-bd92-e5fc0b76d87f",
+    "public_id": "ed50fb7c-729e-488c-a3e7-10a4087aab98",
+    "file": "images/ed50fb7c-729e-488c-a3e7-10a4087aab98.jpg",
+    "description": "Popped Cola",
+    "uploaded_on": "2024-10-18T11:52:54.192Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 25,
+  "fields": {
+    "attachment_key": "bb4e9a37-21da-4990-a7a7-c442ad7ba794",
+    "public_id": "5cf4b9af-1df1-4f50-9dc1-97c454c8eaf8",
+    "file": "images/5cf4b9af-1df1-4f50-9dc1-97c454c8eaf8.png",
+    "description": "Original",
+    "uploaded_on": "2024-10-18T11:53:25.556Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 26,
+  "fields": {
+    "attachment_key": "ca9a1f54-0e4b-4277-8713-77e08096e12e",
+    "public_id": "0b7f3f0e-f226-427a-9ed3-95610d128bb9",
+    "file": "images/0b7f3f0e-f226-427a-9ed3-95610d128bb9.png",
+    "description": "Forget",
+    "uploaded_on": "2024-10-18T11:53:53.654Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 27,
+  "fields": {
+    "attachment_key": "00b5a5b0-e180-4e78-a765-011292f4135c",
+    "public_id": "4d4e6388-267e-424b-a2ad-e2512ba9b207",
+    "file": "images/4d4e6388-267e-424b-a2ad-e2512ba9b207.png",
+    "description": "Energy",
+    "uploaded_on": "2024-10-18T11:54:15.548Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 28,
+  "fields": {
+    "attachment_key": "5e279bde-bd62-4955-94df-34d47e01e550",
+    "public_id": "9cd77dc3-cd6a-48bd-8baf-d14363571f52",
+    "file": "images/9cd77dc3-cd6a-48bd-8baf-d14363571f52.png",
+    "description": "Advertising",
+    "uploaded_on": "2024-10-18T11:54:50.064Z"
+  }
+},
+{
+  "model": "core.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$3UASVRfnCnaeFfvZSnQH1Q$tDhaD0/jqYC4S6w54ocZwyEXfBDgwifcQ8oEQ2FQSB0=",
+    "last_login": "2024-11-12T19:02:16.143Z",
+    "is_superuser": true,
+    "passage_id": "324321544235435",
+    "email": "a@a.com",
+    "name": "Superusuário",
+    "is_active": true,
+    "is_staff": true,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 2,
+  "fields": {
+    "descricao": "Roupas",
+    "capa": 17
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 3,
+  "fields": {
+    "descricao": "Bolsas",
+    "capa": 16
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 4,
+  "fields": {
+    "descricao": "Copos",
+    "capa": 15
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 6,
+  "fields": {
+    "nome": "Tote Bags Black and White",
+    "descricao": "Bags",
+    "valor": "12.00",
+    "quantidade": 0,
+    "categoria": 3,
+    "capa": 14
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 7,
+  "fields": {
+    "nome": "Tote Bag Popped",
+    "descricao": "Bag",
+    "valor": "12.00",
+    "quantidade": 0,
+    "categoria": 3,
+    "capa": 13
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 8,
+  "fields": {
+    "nome": "Shopping Bag Popped",
+    "descricao": "Bag",
+    "valor": "7.00",
+    "quantidade": 0,
+    "categoria": 3,
+    "capa": 12
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 9,
+  "fields": {
+    "nome": "Paper Cup Popped",
+    "descricao": "Cup",
+    "valor": "2.00",
+    "quantidade": 0,
+    "categoria": 4,
+    "capa": 11
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 10,
+  "fields": {
+    "nome": "Mug Black",
+    "descricao": "Mug",
+    "valor": "10.00",
+    "quantidade": 0,
+    "categoria": 4,
+    "capa": 9
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 11,
+  "fields": {
+    "nome": "Mug White",
+    "descricao": "Mug",
+    "valor": "10.00",
+    "quantidade": 0,
+    "categoria": 4,
+    "capa": 8
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 12,
+  "fields": {
+    "nome": "T-Shirt White",
+    "descricao": "T-shirt",
+    "valor": "70.00",
+    "quantidade": 0,
+    "categoria": 2,
+    "capa": 7
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 13,
+  "fields": {
+    "nome": "T-Shirt Black",
+    "descricao": "T-shirt",
+    "valor": "70.00",
+    "quantidade": 0,
+    "categoria": 2,
+    "capa": 6
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 14,
+  "fields": {
+    "nome": "Hoodie White",
+    "descricao": "Hoodie",
+    "valor": "130.00",
+    "quantidade": 0,
+    "categoria": 2,
+    "capa": 1
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 15,
+  "fields": {
+    "nome": "Hoodie Black",
+    "descricao": "Hoodie",
+    "valor": "130.00",
+    "quantidade": 0,
+    "categoria": 2,
+    "capa": 5
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 16,
+  "fields": {
+    "nome": "Beanie Black",
+    "descricao": "Beanie",
+    "valor": "30.00",
+    "quantidade": 0,
+    "categoria": 2,
+    "capa": 4
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 17,
+  "fields": {
+    "nome": "Beanie White",
+    "descricao": "Beanie",
+    "valor": "30.00",
+    "quantidade": 0,
+    "categoria": 2,
+    "capa": 3
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 18,
+  "fields": {
+    "nome": "Cap white",
+    "descricao": "Cap",
+    "valor": "20.00",
+    "quantidade": 0,
+    "categoria": 2,
+    "capa": 2
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 19,
+  "fields": {
+    "nome": "Nike Air-Force Popped",
+    "descricao": "Shoes",
+    "valor": "200.00",
+    "quantidade": 0,
+    "categoria": 2,
+    "capa": 10
+  }
+},
+{
+  "model": "core.cliente",
+  "pk": 1,
+  "fields": {
+    "nome": "Rafael de França",
+    "email": "erfranca.com@gmail.com",
+    "password": "29122006",
+    "capa": null
+  }
+},
+{
+  "model": "core.pedido",
+  "pk": 1,
+  "fields": {
+    "data_criacao": "2024-10-08T18:29:25.609Z",
+    "endereco": "sadsadsad",
+    "produto": [
+      7
+    ]
+  }
+},
+{
+  "model": "core.pedido",
+  "pk": 2,
+  "fields": {
+    "data_criacao": "2024-10-08T18:40:23.378Z",
+    "endereco": "São Paulo",
+    "produto": [
+      6,
+      7,
+      8
+    ]
+  }
+},
+{
+  "model": "core.pedido",
+  "pk": 3,
+  "fields": {
+    "data_criacao": "2024-10-08T19:34:34.173Z",
+    "endereco": "Rua Ana Rosa",
+    "produto": [
+      6,
+      7
+    ]
+  }
+}
+]
